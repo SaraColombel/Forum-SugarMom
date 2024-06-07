@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-right: 50px;
+    padding-bottom: 12px;
+}
+
+header{
+    background-color: rgb(255, 163, 163);
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav input{
+    margin-left: 40px;
+    background-color: rgb(153, 0, 0);
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.post{
+    background-color: rgb(255, 229, 229);
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-top: 0.1px;
+}
+
+#derniersPosts{
+    display: flex;
+    flex-direction: column;
+}
+
+#categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.lire{
+    background-color: rgb(153, 0, 0);
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 7px;
+    width: 8%;
+    font-size: 17px;
+    border-color: #6d0000;
+}
+
+.container{
+    display: flex;
+}
+
+.col1{
+    width: 70%;
+}
+.col2{
+    width: 30%;
+    margin-left: 2%;
+
+}
+.diffCat{
+    background-color: rgb(255,229,229);
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+#statistiques{
+    background-color: rgb(255, 229, 229);
+    padding: 5px;
+}
+
+#statistiques p{
+    display: flex;
+}
+
+img{
+    float:right;
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+}
+.contenu{
+    margin-top: 7%;
+    width: 70%;
+}
+
+
